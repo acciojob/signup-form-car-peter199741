@@ -10,24 +10,25 @@
 	<!-- the entire body must be written by student -->
 	<form action="Car Form">
 	<label for="name">Name</label>
-	<input type="name" id="#name" required> <br>
+	<input type="name" id="name" required> <br>
 	<label for="email">Email</label>
-	<input type="email" id="#email" required> <br>
+	<input type="email" id="email" required> <br>
 	<label for="password">Password</label>
-	<input type="password" id="#password" required> <br>
+	<input type="password" id="password" required> <br>
 	<label for="gender">Gender</label>
 	<input type="radio" id="gender"> Male 
 	<input type="radio" id="gender"> Female <br>
-	<label for="cars">Cars</label>
-	<input type="radio" id="Cars" > BMW 
-	<input type="radio" id="Cars" > Audi
-	<input type="radio" id="Cars" > Mercedez<br>
-	
+	<label for="cars">Choose a Car</label>
+	<select name="cars" id="cars">
+	<option value="BMW"> BMW 
+	<option value="Audi"> Audi
+	<option value="Mercedez"> Mercedez<br>
+</select> <br>
 	<label for="age">Age</label>
-	<input type="number" id="#age" required> <br>
+	<input type="number" id="age" required> <br>
 	<label for="dob">dob</label>
-	<input type="date" id="#dob" required> <br>
-	<button >Submit</button>
+	<input type="date" id="dob" required> <br>
+	<button type="submit">Submit</button>
 </form>
     <script type="text/javascript" src="./script.js">
 </script>
